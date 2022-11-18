@@ -1,9 +1,5 @@
 package atqc.handlingExceptions;
 
-import java.util.List;
-
-import static java.util.Arrays.asList;
-
 public class HandlingUncheckedExceptions {
     public static void main(String[] args) throws CustomException {
         ExceptionsBase exceptionsBase = new ExceptionsBase();
