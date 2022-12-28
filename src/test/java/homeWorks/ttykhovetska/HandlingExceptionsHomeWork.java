@@ -16,11 +16,7 @@ public class HandlingExceptionsHomeWork {
         getListElements(fruits);
     }
 
-    /*
-        01. You have a list: List<String> fruits = asList("banana", "kiwi", "orange", "watermelon", "grape");
-        Try to get and handle IndexOutOfBoundsException exception. Use 'for' loop.
-        Print each name of fruit and the last message "There are no fruits. Buy more.".
-    */
+
     public static void getListElements(List<String> inputList){
         try {
             for (int i = 0; i <= inputList.size(); i++) {

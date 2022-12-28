@@ -1,5 +1,6 @@
 package homeWorks.ttykhovetska;
 
+import atqc.junit_testng.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,15 +20,14 @@ public class JUnitTestNGHomeWork {
     private static final String User_First_Name = "David";
     private static final String User_Last_Name = "Dakhovny";
     private static final String User_Company = "Marsik";
-    private static final String User_EMail = "tigspefu@sharklasers.com ";
+    private static final String User_EMail = "moonlight@gmail.com";
 
     public String test_Form_User_First_Name = "//input[@id='first_name']";
     public String test_Form_User_Last_Name = "//input[@id='last_name']";
     public String test_Form_User_Company = "//input[@id='company']";
-    public String test_Form_User_EMail = "//input[@id='email']";
-//    public String try_test_IO_Button = " //strong[contains(text(),'TRY TEST IO')]";
-    public String try_test_IO_Button = "//button[@id='lp-pom-button-10']";
-    public String pop_Up_Button = "//body/div[2]/div[1]/div[1]/iframe[1]";
+    public String test_Form_User_EMail = "//input[@type='email']";
+    public String try_test_IO_Button = " //button[@id='lp-pom-button-10']";
+    public String pop_Up_Button = "//div[@class=\"lp-pom-block-content\"]";
     public String cross_Button = "//button[contains(text(),'Close')]";
 
 
@@ -49,9 +49,6 @@ public class JUnitTestNGHomeWork {
         driver.findElement(By.xpath(test_Form_User_Company)).sendKeys(User_Company);
         driver.findElement(By.xpath(test_Form_User_EMail)).sendKeys(User_EMail);
         driver.findElement(By.xpath(try_test_IO_Button)).click();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//        driver.findElement(By.id("lp-pom-button-10")).click();
-
     }
     private static final String Step_2 = "Check pop up text";
 
