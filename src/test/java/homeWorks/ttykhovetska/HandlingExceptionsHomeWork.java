@@ -45,8 +45,12 @@ public class HandlingExceptionsHomeWork {
         try {
             Integer.parseInt(scanner.next());
         } catch (NumberFormatException e) {
+
+        }
+        finally{
             System.out.println("Programme end");
         }
+
     }
 /*
 01. You have a list: List<String> fruits = asList("banana", "kiwi", "orange", "watermelon", "grape");

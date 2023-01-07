@@ -1,7 +1,6 @@
 package atqc.javaFeatures;
 
 import atqc.javaFeatures.support.User;
-import com.sun.xml.internal.ws.util.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -88,9 +87,9 @@ public class Streams {
     public static void getStreamMappingForCapitalizeNames(){
         List<String> names = Arrays.asList("john", "arya", "sansa");
 
-        names.stream()
-                .map(StringUtils::capitalize)
-                .forEach(System.out::println);
+//        names.stream()
+//                .map(StringUtils::capitalize)
+//                .forEach(System.out::println);
     }
 
     public static void getStreamFilterMappingObject(){
