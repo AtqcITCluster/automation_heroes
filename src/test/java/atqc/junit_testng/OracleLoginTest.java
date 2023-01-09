@@ -13,7 +13,7 @@ public class OracleLoginTest {
     private static final String HOME_PAGE_TITLE_TEXT = "Oracle | Cloud Applications and Cloud Platform";
     private static final String LOGIN_PAGE_TITLE_TEXT = "Oracle account sign in";
 
-    public String driverPath = "C://chromedriver_win321//chromedriver.exe";
+    public String driverPath = "/opt/homebrew/bin/chromedriver";
     public WebDriver driver;
     public String baseUrl = "https://www.oracle.com/";
     public String homePageGroup= "homePage";
