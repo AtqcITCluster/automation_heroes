@@ -1,0 +1,14 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "marionette": true,
+      "maxInstances": 3,
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "hub": "http://localhost:4444"
+}

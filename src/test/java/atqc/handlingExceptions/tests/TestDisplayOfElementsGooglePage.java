@@ -10,8 +10,10 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.io.File;
+
 public class TestDisplayOfElementsGooglePage {
-    public String driverPath = "C://chromedriver_win321//chromedriver.exe";
+    public String driverPath = new File("src/test/resources/drivers/chromedriver.exe").getAbsolutePath();
     public String baseUrl = "https://www.google.com.ua";
     public WebDriver driver;
     public String userGoogleAccountButton = "//a[contains(@aria-label,'Google Account:')]";

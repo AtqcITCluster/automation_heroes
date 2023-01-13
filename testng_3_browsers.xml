@@ -1,0 +1,20 @@
+<suite name="ClusterTitleTest" parallel="" thread-count="3">
+    <test name="ChromeTest" verbose="1" parallel="true">
+        <parameter name="browserName" value="chrome" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+    <test name="FirefoxTest" verbose="2" parallel="true">
+        <parameter name="browserName" value="firefox" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+    <test name="MicrosoftEdge" verbose="3" parallel="true">
+        <parameter name="browserName" value="MicrosoftEdge" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+</suite>

@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.io.File;
+
 public class OracleLoginTest {
     private static final String USER_MAIL = "tigspefu@sharklasers.com";
     private static final String USER_NAME = "dwadw dwadwa";
@@ -13,7 +15,7 @@ public class OracleLoginTest {
     private static final String HOME_PAGE_TITLE_TEXT = "Oracle | Cloud Applications and Cloud Platform";
     private static final String LOGIN_PAGE_TITLE_TEXT = "Oracle account sign in";
 
-    public String driverPath = "C://chromedriver_win321//chromedriver.exe";
+    public String driverPath = new File("src/test/resources/drivers/chromedriver.exe").getAbsolutePath();
     public WebDriver driver;
     public String baseUrl = "https://www.oracle.com/";
     public String homePageGroup= "homePage";

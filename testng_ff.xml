@@ -1,0 +1,20 @@
+<suite name="ClusterTitleTest" parallel="tests" thread-count="3" verbose="1">
+    <test name="FirefoxTest1" verbose="1" parallel="true" preserve-order="true">
+        <parameter name="browserName" value="firefox" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+    <test name="FirefoxTest2" verbose="2" parallel="true" preserve-order="true">
+        <parameter name="browserName" value="firefox" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+    <test name="FirefoxTest3" verbose="3" parallel="true" preserve-order="true">
+        <parameter name="browserName" value="firefox" />
+        <classes>
+            <class name="atqc.selenuimGrid.ItClusterAcademyPageTitlesTest" />
+        </classes>
+    </test>
+</suite>

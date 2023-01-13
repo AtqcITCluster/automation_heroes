@@ -10,11 +10,13 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import java.io.File;
 import java.time.Duration;
 import static java.lang.String.format;
 
 public class GoogleSearchResultsTest {
-    public String driverPath = "C://chromedriver_win321//chromedriver.exe";
+    public String driverPath = new File("src/test/resources/drivers/chromedriver.exe").getAbsolutePath();
     public WebDriver driver;
     public String baseUrl = "https://www.google.com/?lang=en";
 
