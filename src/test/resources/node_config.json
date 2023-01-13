@@ -1,0 +1,26 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "firefox",
+      "platform": "WINDOWS",
+      "marionette": true,
+      "maxInstances": 1,
+      "seleniumProtocol": "WebDriver"
+    },
+    {
+      "browserName": "chrome",
+      "platform": "WINDOWS",
+      "maxInstances": 1,
+      "seleniumProtocol": "WebDriver"
+    },
+    {
+      "browserName": "MicrosoftEdge",
+      "platform": "WINDOWS",
+      "maxInstances": 1,
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "hub": "http://localhost:4444"
+}

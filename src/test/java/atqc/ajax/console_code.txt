@@ -1,0 +1,14 @@
+### alert
+alert("hi there ☺");
+
+### scroll bottom
+const element = document.getElementById("rec98080583");
+element.scrollIntoView();
+
+### click on element
+$(".t280__burger").click();
+
+### console log
+console.log("console log test mesage")
+
+
