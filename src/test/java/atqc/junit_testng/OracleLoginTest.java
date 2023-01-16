@@ -96,7 +96,7 @@ public class OracleLoginTest {
 
     @AfterTest(alwaysRun = true)
     public void afterTest() {
-        driver.close();
+        driver.quit();
     }
 
 }

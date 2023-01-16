@@ -55,7 +55,7 @@ public class DriverWaitsTest {
         Assert.assertTrue(elementPresent.isDisplayed(), "Page element isn't loaded");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testClickableElement(){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(pageWelcomeText)));

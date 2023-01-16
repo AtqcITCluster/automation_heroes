@@ -1,7 +1,7 @@
 package atqc.javaFeatures;
 
 import atqc.javaFeatures.support.User;
-import com.sun.xml.internal.ws.util.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.*;
 import java.util.stream.Collectors;

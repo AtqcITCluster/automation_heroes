@@ -52,6 +52,6 @@ public class TestDisplayOfElementsGooglePage {
 
     @AfterTest(alwaysRun = true)
     public void afterTest() {
-        driver.close();
+        driver.quit();
     }
 }

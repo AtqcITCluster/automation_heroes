@@ -51,7 +51,7 @@ public class GoogleSearchResultsTest {
 
     @AfterTest(alwaysRun = true)
     public void afterTest() {
-        driver.close();
+        driver.quit();
     }
 
 }

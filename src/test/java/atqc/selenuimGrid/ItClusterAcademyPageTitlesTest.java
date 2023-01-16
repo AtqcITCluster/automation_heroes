@@ -33,7 +33,7 @@ public class ItClusterAcademyPageTitlesTest {
     }
 
     @Parameters({"browserName"})
-    @BeforeClass
+    @BeforeClass(enabled = false)
     public void beforeGoogleSearchResultsTest(String browserName) throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName(browserName);
@@ -41,13 +41,13 @@ public class ItClusterAcademyPageTitlesTest {
         driver.manage().window().maximize();
     }
 
-    @Test(dataProvider = "pageTitles")
+    @Test(dataProvider = "pageTitles", enabled = false)
     public void testHomePageTitle(String url, String title){
         driver.get(url);
         Assert.assertEquals(driver.getTitle(), title, "Titles aren't equal.");
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterTest(enabled = false)
     public void afterTest() {
         driver.quit();
     }

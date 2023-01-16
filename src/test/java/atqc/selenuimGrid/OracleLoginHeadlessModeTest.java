@@ -106,6 +106,6 @@ public class OracleLoginHeadlessModeTest {
 
     @AfterTest(alwaysRun = true)
     public void afterTest() {
-        driver.close();
+        driver.quit();
     }
 }

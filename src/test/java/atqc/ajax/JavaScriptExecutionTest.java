@@ -17,6 +17,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import java.io.File;
+import java.io.UnsupportedEncodingException;
 import java.time.Duration;
 import java.util.logging.Level;
 import static java.lang.String.format;
@@ -73,7 +74,7 @@ public class JavaScriptExecutionTest {
         Assert.assertTrue(driver.findElement(By.xpath(footerLogo)).isDisplayed(), "Footer logo isn't display.");
     }
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void testClickOnElement(){
         driver.manage().window().setSize(new Dimension(900, 600));
 
