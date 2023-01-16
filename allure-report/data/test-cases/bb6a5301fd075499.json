@@ -1,0 +1,60 @@
+{
+  "uid" : "bb6a5301fd075499",
+  "name" : "testGetBrowserConsoleLog",
+  "fullName" : "atqc.ajax.JavaScriptExecutionTest.testGetBrowserConsoleLog",
+  "historyId" : "21436aa4d2023d9d62796f21a9d053c3",
+  "time" : {
+    "start" : 1673908642651,
+    "stop" : 1673908642651,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.ajax.JavaScriptExecutionTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.ajax.JavaScriptExecutionTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGetBrowserConsoleLog"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.ajax.JavaScriptExecutionTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "6780@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb6a5301fd075499.json",
+  "parameterValues" : [ ]
+}

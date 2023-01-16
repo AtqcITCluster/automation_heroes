@@ -1,0 +1,167 @@
+{
+  "uid" : "de8a28d176c33177",
+  "name" : "testLoginButtonShown",
+  "fullName" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage.testLoginButtonShown",
+  "historyId" : "1462a500fa69121279dee36f3c3b4d8f",
+  "time" : {
+    "start" : 1673909005899,
+    "stop" : 1673909005930,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "statusMessage" : "Element hidden. expected [false] but found [true]",
+  "statusTrace" : "java.lang.AssertionError: Element hidden. expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertFalse(Assert.java:65)\r\n\tat atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage.testLoginButtonShown(TestDisplayOfElementsGooglePage.java:50)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\r\n\tat org.testng.TestRunner.run(TestRunner.java:587)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1109)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1039)\r\n\tat org.testng.TestNG.run(TestNG.java:1007)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908968658,
+      "stop" : 1673908972602,
+      "duration" : 3944
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673909005930,
+      "stop" : 1673909006171,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginButtonShown"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "13164@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "687da4905fec2fb",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@aria-label,'Google Account:')]\"}\n  (Session info: chrome=109.0.5414.75)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'ANTRACOT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [95061081dfcb3726e57fcbd745fa35fa, findElement {using=xpath, value=//a[contains(@aria-label,'Google Account:')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\Antracot\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51690}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51690/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 95061081dfcb3726e57fcbd745fa35fa",
+      "time" : {
+        "start" : 1673908838480,
+        "stop" : 1673908838512,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "df869111375ea6dd",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[contains(@aria-label,'Google Account:')]\"}\n  (Session info: chrome=109.0.5414.75)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'ANTRACOT', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1ba2a1059415f12fe0f403c0ee64cd95, findElement {using=xpath, value=//a[contains(@aria-label,'Google Account:')]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\Antracot\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51444/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1ba2a1059415f12fe0f403c0ee64cd95",
+      "time" : {
+        "start" : 1673908677625,
+        "stop" : 1673908677656,
+        "duration" : 31
+      }
+    }, {
+      "uid" : "5ec8a449651adf24",
+      "status" : "failed",
+      "statusDetails" : "Element shown. expected [false] but found [true]",
+      "time" : {
+        "start" : 1673907873860,
+        "stop" : 1673907874020,
+        "duration" : 160
+      }
+    }, {
+      "uid" : "4bf21f6c59b0f879",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907689218,
+        "stop" : 1673907689282,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "4b2565b222210c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907017878,
+        "stop" : 1673907017925,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "3ae0507f842e631b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906633038,
+        "stop" : 1673906633149,
+        "duration" : 111
+      }
+    }, {
+      "uid" : "22ba0f092737a71f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906532497,
+        "stop" : 1673906532549,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "9afe3ff2a4bc1023",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673905770715,
+        "stop" : 1673905770852,
+        "duration" : 137
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "de8a28d176c33177.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,134 @@
+{
+  "uid" : "fa1c6ad97983fff8",
+  "name" : "testLoginOnOracle",
+  "fullName" : "atqc.selenuimGrid.OracleLoginHeadlessModeTest.testLoginOnOracle",
+  "historyId" : "fc4a0c6caebdb975b0696c7e089ada41",
+  "time" : {
+    "start" : 1673908984714,
+    "stop" : 1673908987659,
+    "duration" : 2945
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908968658,
+      "stop" : 1673908972602,
+      "duration" : 3944
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeOracleLoginTest",
+    "time" : {
+      "start" : 1673908978039,
+      "stop" : 1673908980856,
+      "duration" : 2817
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673908990304,
+      "stop" : 1673908990726,
+      "duration" : 422
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.selenuimGrid.OracleLoginHeadlessModeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.selenuimGrid.OracleLoginHeadlessModeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginOnOracle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.selenuimGrid.OracleLoginHeadlessModeTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "13164@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28db39f09b879fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673908658941,
+        "stop" : 1673908661665,
+        "duration" : 2724
+      }
+    }, {
+      "uid" : "5b20c5c9fa3652e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906995195,
+        "stop" : 1673906998599,
+        "duration" : 3404
+      }
+    }, {
+      "uid" : "d1d1d507241474dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906512177,
+        "stop" : 1673906515920,
+        "duration" : 3743
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa1c6ad97983fff8.json",
+  "parameterValues" : [ ]
+}

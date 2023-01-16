@@ -19,7 +19,7 @@ public class GoogleSearchResultsTest {
     public WebDriver driver;
     public String baseUrl = "https://www.google.com/?lang=en";
 
-    private String results =  "//div[@lang='en']//ancestor::h3";
+    private String results =  "//div[@lang='uk']//ancestor::h3";
     private final String searchInput = "//input[@title]";
     private String onLoaded = "//a[@target=\"_top\"]";
 

@@ -1,0 +1,92 @@
+{
+  "uid" : "954bcf0d5941737d",
+  "name" : "testGoogleAccountButtonHidden",
+  "fullName" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage.testGoogleAccountButtonHidden",
+  "historyId" : "a587f5cc911fbcd14b1e8fc5db50404f",
+  "time" : {
+    "start" : 1673908838355,
+    "stop" : 1673908838388,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908833930,
+      "stop" : 1673908838292,
+      "duration" : 4362
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673908838528,
+      "stop" : 1673908838787,
+      "duration" : 259
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGoogleAccountButtonHidden"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_heroes"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "4540@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "954bcf0d5941737d.json",
+  "parameterValues" : [ ]
+}

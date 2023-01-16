@@ -1,0 +1,134 @@
+{
+  "uid" : "ce85cb63738abe62",
+  "name" : "testLoginOnOracle",
+  "fullName" : "atqc.junit_testng.OracleLoginTest.testLoginOnOracle",
+  "historyId" : "26d225245ac7701a69d0abc08367c75e",
+  "time" : {
+    "start" : 1673909014233,
+    "stop" : 1673909017600,
+    "duration" : 3367
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908968658,
+      "stop" : 1673908972602,
+      "duration" : 3944
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeOracleLoginTest",
+    "time" : {
+      "start" : 1673909006171,
+      "stop" : 1673909009987,
+      "duration" : 3816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673909020469,
+      "stop" : 1673909020901,
+      "duration" : 432
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.junit_testng.OracleLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.junit_testng.OracleLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLoginOnOracle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.junit_testng.OracleLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "13164@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "283106a7bc8ce13f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673908685847,
+        "stop" : 1673908688890,
+        "duration" : 3043
+      }
+    }, {
+      "uid" : "5aa0ed8e4927f825",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907026232,
+        "stop" : 1673907029789,
+        "duration" : 3557
+      }
+    }, {
+      "uid" : "ab0d563ed5cf796a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906543050,
+        "stop" : 1673906546092,
+        "duration" : 3042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ce85cb63738abe62.json",
+  "parameterValues" : [ ]
+}

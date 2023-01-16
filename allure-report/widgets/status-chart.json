@@ -1,0 +1,221 @@
+[ {
+  "uid" : "1221cd9520342c90",
+  "name" : "tesShowAlert",
+  "time" : {
+    "start" : 1673908968627,
+    "stop" : 1673908968627,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "9b5f4f5bdc563ab4",
+  "name" : "testGetBrowserConsoleLog",
+  "time" : {
+    "start" : 1673908968627,
+    "stop" : 1673908968627,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "48e993495225ecee",
+  "name" : "testOpenHonePge",
+  "time" : {
+    "start" : 1673909010548,
+    "stop" : 1673909010556,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6699309f93127974",
+  "name" : "testHomePageTitle",
+  "time" : {
+    "start" : 1673908968502,
+    "stop" : 1673908968518,
+    "duration" : 16
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "6ceed0990feed2fc",
+  "name" : "testGoogleAccountButtonHidden",
+  "time" : {
+    "start" : 1673909005883,
+    "stop" : 1673909005899,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1725c4783eae3006",
+  "name" : "testImplicitWaitExample",
+  "time" : {
+    "start" : 1673908968643,
+    "stop" : 1673908968643,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "b98ed8b7c35150c8",
+  "name" : "testClickableElement",
+  "time" : {
+    "start" : 1673908992235,
+    "stop" : 1673909000571,
+    "duration" : 8336
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "def37e2a965d5197",
+  "name" : "testThreadSleepExample",
+  "time" : {
+    "start" : 1673908968643,
+    "stop" : 1673908968643,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "ce85cb63738abe62",
+  "name" : "testLoginOnOracle",
+  "time" : {
+    "start" : 1673909014233,
+    "stop" : 1673909017600,
+    "duration" : 3367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa1c6ad97983fff8",
+  "name" : "testLoginOnOracle",
+  "time" : {
+    "start" : 1673908984714,
+    "stop" : 1673908987659,
+    "duration" : 2945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16ab9c1c615b1d5b",
+  "name" : "beforeJUnitTestNGHomeWork",
+  "time" : {
+    "start" : 1673908391679,
+    "stop" : 1673908391679,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7a325c6f2b6dd7b0",
+  "name" : "testUserNameIsShown",
+  "time" : {
+    "start" : 1673909017600,
+    "stop" : 1673909017967,
+    "duration" : 367
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dda4d9c1f98974c",
+  "name" : "testMouseOverElement",
+  "time" : {
+    "start" : 1673908968658,
+    "stop" : 1673908968658,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "bc6a0fcda29405e0",
+  "name" : "afterTest",
+  "time" : {
+    "start" : 1673908391710,
+    "stop" : 1673908391710,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1526371fd0d28a99",
+  "name" : "testScrollToBottomOfPage",
+  "time" : {
+    "start" : 1673908968643,
+    "stop" : 1673908968643,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "159ae2b438d44fd",
+  "name" : "testOpenHonePge",
+  "time" : {
+    "start" : 1673908981443,
+    "stop" : 1673908981451,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e27606a4e2817a0",
+  "name" : "testClickOnElement",
+  "time" : {
+    "start" : 1673909005380,
+    "stop" : 1673909005612,
+    "duration" : 232
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9217bf22cf804b3",
+  "name" : "testOpenLoginPage",
+  "time" : {
+    "start" : 1673909010556,
+    "stop" : 1673909014233,
+    "duration" : 3677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5a5dfffeb11021b",
+  "name" : "testOpenLoginPage",
+  "time" : {
+    "start" : 1673908981459,
+    "stop" : 1673908984706,
+    "duration" : 3247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de8a28d176c33177",
+  "name" : "testLoginButtonShown",
+  "time" : {
+    "start" : 1673909005899,
+    "stop" : 1673909005930,
+    "duration" : 31
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "afb8517cc7396eab",
+  "name" : "testSearchValuePresentInEachResultTitle",
+  "time" : {
+    "start" : 1673908977659,
+    "stop" : 1673908977723,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72e67848bf3567d3",
+  "name" : "testUserNameIsShown",
+  "time" : {
+    "start" : 1673908987659,
+    "stop" : 1673908987883,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

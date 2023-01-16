@@ -1,0 +1,108 @@
+{
+  "uid" : "71049abaa570fb3b",
+  "name" : "testClickableElement",
+  "fullName" : "atqc.ajax.DriverWaitsTest.testClickableElement",
+  "historyId" : "671736626020e41754d35e4f8c26ffd6",
+  "time" : {
+    "start" : 1673908665943,
+    "stop" : 1673908674316,
+    "duration" : 8373
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeJUnitTestNGHomeWork",
+    "time" : {
+      "start" : 1673908664755,
+      "stop" : 1673908665943,
+      "duration" : 1188
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908642698,
+      "stop" : 1673908646448,
+      "duration" : 3750
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673908674316,
+      "stop" : 1673908674531,
+      "duration" : 215
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickableElement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "6780@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71049abaa570fb3b.json",
+  "parameterValues" : [ ]
+}

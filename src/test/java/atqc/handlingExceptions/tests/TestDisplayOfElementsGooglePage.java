@@ -47,7 +47,7 @@ public class TestDisplayOfElementsGooglePage {
     public void testLoginButtonShown(){
         WebElement googleAccountButton = driver.findElement(By.xpath(loginButton));
 
-        Assert.assertTrue(googleAccountButton.isDisplayed(), "Element shown.");
+        Assert.assertFalse(googleAccountButton.isDisplayed(), "Element hidden.");
     }
 
     @AfterClass(alwaysRun = true)

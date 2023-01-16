@@ -1,0 +1,108 @@
+{
+  "uid" : "5aa4340132203118",
+  "name" : "testSearchValuePresentInEachResultTitle",
+  "fullName" : "atqc.locators.GoogleSearchResultsTest.testSearchValuePresentInEachResultTitle",
+  "historyId" : "4516357a495e81a930d0a07e8293de83",
+  "time" : {
+    "start" : 1673906988351,
+    "stop" : 1673906988504,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeGoogleSearchResultsTest",
+    "time" : {
+      "start" : 1673906984069,
+      "stop" : 1673906988335,
+      "duration" : 4266
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673906980516,
+      "stop" : 1673906984057,
+      "duration" : 3541
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673906988509,
+      "stop" : 1673906988863,
+      "duration" : 354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.locators.GoogleSearchResultsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.locators.GoogleSearchResultsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSearchValuePresentInEachResultTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.locators.GoogleSearchResultsTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "15852@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aa4340132203118.json",
+  "parameterValues" : [ ]
+}

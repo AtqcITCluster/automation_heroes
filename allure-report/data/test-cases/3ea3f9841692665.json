@@ -1,0 +1,92 @@
+{
+  "uid" : "3ea3f9841692665",
+  "name" : "testClickableElement",
+  "fullName" : "atqc.ajax.DriverWaitsTest.testClickableElement",
+  "historyId" : "671736626020e41754d35e4f8c26ffd6",
+  "time" : {
+    "start" : 1673908465920,
+    "stop" : 1673908474134,
+    "duration" : 8214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeJUnitTestNGHomeWork",
+    "time" : {
+      "start" : 1673908460661,
+      "stop" : 1673908465904,
+      "duration" : 5243
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673908474134,
+      "stop" : 1673908475058,
+      "duration" : 924
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testClickableElement"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "automation_heroes"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "14232@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ea3f9841692665.json",
+  "parameterValues" : [ ]
+}

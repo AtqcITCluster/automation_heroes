@@ -1,0 +1,339 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "automation_heroes",
+      "children" : [ {
+        "name" : "atqc.ajax.DriverWaitsTest",
+        "children" : [ {
+          "name" : "beforeJUnitTestNGHomeWork",
+          "uid" : "16ab9c1c615b1d5b",
+          "parentUid" : "a9b9bbcca32f263f2c74fbb5a42a59a6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1673908391679,
+            "stop" : 1673908391679,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "afterTest",
+          "uid" : "bc6a0fcda29405e0",
+          "parentUid" : "a9b9bbcca32f263f2c74fbb5a42a59a6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1673908391710,
+            "stop" : 1673908391710,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a9b9bbcca32f263f2c74fbb5a42a59a6"
+      } ],
+      "uid" : "04985f2ad52fc7d245c195e37ae24a61"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "atqc.selenuimGrid.ItClusterAcademyPageTitlesTest",
+        "children" : [ {
+          "name" : "testHomePageTitle",
+          "uid" : "6699309f93127974",
+          "parentUid" : "2d5881a300a0255b8ac0f663e7f98d01",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968502,
+            "stop" : 1673908968518,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2d5881a300a0255b8ac0f663e7f98d01"
+      }, {
+        "name" : "atqc.ajax.JavaScriptExecutionTest",
+        "children" : [ {
+          "name" : "tesShowAlert",
+          "uid" : "1221cd9520342c90",
+          "parentUid" : "fc5ff990159a705af4bce5a4d4180b8f",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968627,
+            "stop" : 1673908968627,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGetBrowserConsoleLog",
+          "uid" : "9b5f4f5bdc563ab4",
+          "parentUid" : "fc5ff990159a705af4bce5a4d4180b8f",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968627,
+            "stop" : 1673908968627,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testScrollToBottomOfPage",
+          "uid" : "1526371fd0d28a99",
+          "parentUid" : "fc5ff990159a705af4bce5a4d4180b8f",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968643,
+            "stop" : 1673908968643,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testMouseOverElement",
+          "uid" : "dda4d9c1f98974c",
+          "parentUid" : "fc5ff990159a705af4bce5a4d4180b8f",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968658,
+            "stop" : 1673908968658,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testClickOnElement",
+          "uid" : "2e27606a4e2817a0",
+          "parentUid" : "fc5ff990159a705af4bce5a4d4180b8f",
+          "status" : "failed",
+          "time" : {
+            "start" : 1673909005380,
+            "stop" : 1673909005612,
+            "duration" : 232
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "fc5ff990159a705af4bce5a4d4180b8f"
+      }, {
+        "name" : "atqc.ajax.DriverWaitsTest",
+        "children" : [ {
+          "name" : "testImplicitWaitExample",
+          "uid" : "1725c4783eae3006",
+          "parentUid" : "b6cf80b064c3c0ccc011fa67820b6ea9",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968643,
+            "stop" : 1673908968643,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testThreadSleepExample",
+          "uid" : "def37e2a965d5197",
+          "parentUid" : "b6cf80b064c3c0ccc011fa67820b6ea9",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1673908968643,
+            "stop" : 1673908968643,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testClickableElement",
+          "uid" : "b98ed8b7c35150c8",
+          "parentUid" : "b6cf80b064c3c0ccc011fa67820b6ea9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908992235,
+            "stop" : 1673909000571,
+            "duration" : 8336
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b6cf80b064c3c0ccc011fa67820b6ea9"
+      }, {
+        "name" : "atqc.locators.GoogleSearchResultsTest",
+        "children" : [ {
+          "name" : "testSearchValuePresentInEachResultTitle",
+          "uid" : "afb8517cc7396eab",
+          "parentUid" : "58266741ac6e798d66aa50059c1f1acc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908977659,
+            "stop" : 1673908977723,
+            "duration" : 64
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "58266741ac6e798d66aa50059c1f1acc"
+      }, {
+        "name" : "atqc.selenuimGrid.OracleLoginHeadlessModeTest",
+        "children" : [ {
+          "name" : "testOpenHonePge",
+          "uid" : "159ae2b438d44fd",
+          "parentUid" : "d38f5bf827324f2cc358faef35df5d65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908981443,
+            "stop" : 1673908981451,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testOpenLoginPage",
+          "uid" : "d5a5dfffeb11021b",
+          "parentUid" : "d38f5bf827324f2cc358faef35df5d65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908981459,
+            "stop" : 1673908984706,
+            "duration" : 3247
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginOnOracle",
+          "uid" : "fa1c6ad97983fff8",
+          "parentUid" : "d38f5bf827324f2cc358faef35df5d65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908984714,
+            "stop" : 1673908987659,
+            "duration" : 2945
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testUserNameIsShown",
+          "uid" : "72e67848bf3567d3",
+          "parentUid" : "d38f5bf827324f2cc358faef35df5d65",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673908987659,
+            "stop" : 1673908987883,
+            "duration" : 224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d38f5bf827324f2cc358faef35df5d65"
+      }, {
+        "name" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage",
+        "children" : [ {
+          "name" : "testGoogleAccountButtonHidden",
+          "uid" : "6ceed0990feed2fc",
+          "parentUid" : "25fc15301add084cee46940aad5fa8ac",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673909005883,
+            "stop" : 1673909005899,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginButtonShown",
+          "uid" : "de8a28d176c33177",
+          "parentUid" : "25fc15301add084cee46940aad5fa8ac",
+          "status" : "failed",
+          "time" : {
+            "start" : 1673909005899,
+            "stop" : 1673909005930,
+            "duration" : 31
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "25fc15301add084cee46940aad5fa8ac"
+      }, {
+        "name" : "atqc.junit_testng.OracleLoginTest",
+        "children" : [ {
+          "name" : "testOpenHonePge",
+          "uid" : "48e993495225ecee",
+          "parentUid" : "65fb0209a0d5bb71469c4fd087d662bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673909010548,
+            "stop" : 1673909010556,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testOpenLoginPage",
+          "uid" : "b9217bf22cf804b3",
+          "parentUid" : "65fb0209a0d5bb71469c4fd087d662bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673909010556,
+            "stop" : 1673909014233,
+            "duration" : 3677
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testLoginOnOracle",
+          "uid" : "ce85cb63738abe62",
+          "parentUid" : "65fb0209a0d5bb71469c4fd087d662bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673909014233,
+            "stop" : 1673909017600,
+            "duration" : 3367
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testUserNameIsShown",
+          "uid" : "7a325c6f2b6dd7b0",
+          "parentUid" : "65fb0209a0d5bb71469c4fd087d662bf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1673909017600,
+            "stop" : 1673909017967,
+            "duration" : 367
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "65fb0209a0d5bb71469c4fd087d662bf"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  } ]
+}

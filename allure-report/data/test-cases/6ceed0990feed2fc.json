@@ -1,0 +1,158 @@
+{
+  "uid" : "6ceed0990feed2fc",
+  "name" : "testGoogleAccountButtonHidden",
+  "fullName" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage.testGoogleAccountButtonHidden",
+  "historyId" : "a587f5cc911fbcd14b1e8fc5db50404f",
+  "time" : {
+    "start" : 1673909005883,
+    "stop" : 1673909005899,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeTest",
+    "time" : {
+      "start" : 1673908968658,
+      "stop" : 1673908972602,
+      "duration" : 3944
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "afterTest",
+    "time" : {
+      "start" : 1673909005930,
+      "stop" : 1673909006171,
+      "duration" : 241
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "testMethod",
+    "value" : "testGoogleAccountButtonHidden"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.handlingExceptions.tests.TestDisplayOfElementsGooglePage"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "13164@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "954bcf0d5941737d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673908838355,
+        "stop" : 1673908838388,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "aa8caa47f4a36e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673908677609,
+        "stop" : 1673908677625,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "7fda775b8a100427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907873690,
+        "stop" : 1673907873730,
+        "duration" : 40
+      }
+    }, {
+      "uid" : "493015ce60501c63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907689079,
+        "stop" : 1673907689114,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "57e8b7da504e6802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673907017841,
+        "stop" : 1673907017863,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "7e093f229e86a3cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906632733,
+        "stop" : 1673906632814,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "626987890d6effa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673906532459,
+        "stop" : 1673906532491,
+        "duration" : 32
+      }
+    }, {
+      "uid" : "8625aaf0234efd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1673905770409,
+        "stop" : 1673905770503,
+        "duration" : 94
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ceed0990feed2fc.json",
+  "parameterValues" : [ ]
+}

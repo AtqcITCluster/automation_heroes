@@ -1,0 +1,110 @@
+{
+  "uid" : "def37e2a965d5197",
+  "name" : "testThreadSleepExample",
+  "fullName" : "atqc.ajax.DriverWaitsTest.testThreadSleepExample",
+  "historyId" : "ef892fdbb410ed576e0d87e19d45fd06",
+  "time" : {
+    "start" : 1673908968643,
+    "stop" : 1673908968643,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testThreadSleepExample"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.ajax.DriverWaitsTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "13164@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a01c6a035407e615",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673908642682,
+        "stop" : 1673908642682,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "36c8d987fcad9bac",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673908460614,
+        "stop" : 1673908460614,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94050e0d67dcf58c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673908391523,
+        "stop" : 1673908391523,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a97c9c1ff2a1e4b8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673908343995,
+        "stop" : 1673908343995,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "877941f5eab6746c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673906980500,
+        "stop" : 1673906980500,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "799aeb7f973ad2f1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1673906492956,
+        "stop" : 1673906492956,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "def37e2a965d5197.json",
+  "parameterValues" : [ ]
+}

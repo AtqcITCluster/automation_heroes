@@ -1,5 +1,6 @@
 package atqc.ajax;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -22,6 +23,7 @@ public class JavaScriptExecutionTest {
     public WebDriver driver;
     public JavascriptExecutor runJs;
     public WebDriverWait driverWait;
+    public Faker faker = new Faker();
 
     public String headerLogo = "//img[contains(@src,'/IT Cluster Academy_files/Academy_white_horizo.svg')]";
     public String footerLogo = "//img[contains(@src,'/IT Cluster Academy_files/Frame_2(1).svg')]";
@@ -70,7 +72,7 @@ public class JavaScriptExecutionTest {
 
     @Test(enabled = true)
     public void testClickOnElement(){
-        driver.manage().window().setSize(new Dimension(900, 600));
+//        driver.manage().window().setSize(new Dimension(900, 600));
 
         runJs.executeScript(
                 "$('.t280__burger').click();");

@@ -1,0 +1,60 @@
+{
+  "uid" : "28030fb587b5d2f0",
+  "name" : "testHomePageTitle",
+  "fullName" : "atqc.selenuimGrid.ItClusterAcademyPageTitlesTest.testHomePageTitle",
+  "historyId" : "c1b9354ae9c00424a7b8f3ecbb452beb",
+  "time" : {
+    "start" : 1673908642543,
+    "stop" : 1673908642543,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "atqc.selenuimGrid.ItClusterAcademyPageTitlesTest"
+  }, {
+    "name" : "testClass",
+    "value" : "atqc.selenuimGrid.ItClusterAcademyPageTitlesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHomePageTitle"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "atqc.selenuimGrid.ItClusterAcademyPageTitlesTest"
+  }, {
+    "name" : "host",
+    "value" : "Antracot"
+  }, {
+    "name" : "thread",
+    "value" : "6780@Antracot.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28030fb587b5d2f0.json",
+  "parameterValues" : [ ]
+}
