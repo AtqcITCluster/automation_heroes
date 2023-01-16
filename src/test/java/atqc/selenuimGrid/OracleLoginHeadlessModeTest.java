@@ -7,8 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-
 import java.io.File;
 
 public class OracleLoginHeadlessModeTest {
@@ -104,7 +102,7 @@ public class OracleLoginHeadlessModeTest {
         testBase.waitUntilLoaded(driver, onLoaded);
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void afterTest() {
         driver.quit();
     }

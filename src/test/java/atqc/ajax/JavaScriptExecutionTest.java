@@ -1,9 +1,7 @@
 package atqc.ajax;
 
-import io.netty.handler.logging.LogLevel;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverLogLevel;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.logging.LogType;
@@ -12,12 +10,8 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import java.io.File;
-import java.io.UnsupportedEncodingException;
 import java.time.Duration;
 import java.util.logging.Level;
 import static java.lang.String.format;
@@ -113,7 +107,7 @@ public class JavaScriptExecutionTest {
     }
 
 
-    @AfterTest(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void afterJUnitTestNGHomeWork() {
         driver.quit();
     }

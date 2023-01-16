@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
 import java.io.File;
 
 public class OracleLoginTest {
@@ -94,7 +93,7 @@ public class OracleLoginTest {
         testBase.waitUntilLoaded(driver, onLoaded);
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void afterTest() {
         driver.quit();
     }

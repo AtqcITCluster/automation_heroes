@@ -47,7 +47,7 @@ public class ItClusterAcademyPageTitlesTest {
         Assert.assertEquals(driver.getTitle(), title, "Titles aren't equal.");
     }
 
-    @AfterTest(enabled = false)
+    @AfterClass(enabled = false)
     public void afterTest() {
         driver.quit();
     }

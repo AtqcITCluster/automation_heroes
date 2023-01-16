@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import java.io.File;
@@ -63,7 +63,7 @@ public class DriverWaitsTest {
         Assert.assertTrue(driver.findElement(By.xpath(pageWelcomeText)).isDisplayed(), "Page element isn't loaded");
     }
 
-    @AfterTest(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void afterTest() {
         driver.quit();
     }
